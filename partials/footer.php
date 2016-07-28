@@ -10,5 +10,6 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/jquery.cookie.js"></script>
 </body>
 </html>

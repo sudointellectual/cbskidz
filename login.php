@@ -19,7 +19,7 @@
             <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon1">
           </div>
 
-          <button type="submit" class="btn btn-primary">Login</button>
+          <a type="submit" class="btn btn-primary login" href="index.php">Login</a>
         </form>
 
       <!-- end row -->
