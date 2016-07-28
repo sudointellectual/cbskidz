@@ -6,13 +6,30 @@ $(function() {
 		$.cookie('userName', 'theboss');
 	});
 
+	$('a.logout').on('click', function() {
+		$.cookie('loggedIn', false);
+		location.reload();
+	});
+
 	if($.cookie('loggedIn') == 'true') {
         $('.login-link').hide();
         $('.profile-link').show();
     } else {
         $('.login-link').show();
         $('.profile-link').hide();
+
+        // redirect users to login page if they're not logged in 
+        if (window.location.pathname == '/cbskidz/index.php') {
+        	window.location.href = 'login.php';
+        }
     }
+
+    // login page
+    $('#login-form').submit(function(e) {
+    	e.preventDefault();
+    	window.location.href = 'index.php';
+    })
+
 	// profile page
 	$('.avatars img').on('click', function(){
 		// global
