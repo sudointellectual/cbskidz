@@ -20,3 +20,4 @@ $(function() {
 		 $('.avatar').attr("src", selectedAvatar);
 	});
 });
+
