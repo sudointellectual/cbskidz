@@ -27,6 +27,7 @@ $(function() {
     // login page
     $('#login-form').submit(function(e) {
     	e.preventDefault();
+    	$.cookie('loggedIn', true);
     	window.location.href = 'index.php';
     })
 
