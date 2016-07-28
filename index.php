@@ -22,18 +22,6 @@
   <?php include('nav.php'); ?>
   <div class="container">
     <!-- Example row of columns -->
-    <div class="row">
+    <?php include('recommended.php'); ?>
 
-    </div>
-
-    <footer>
-      <p>© 2016 #TeamValor</p>
-    </footer>
-  </div>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php include('footer.php'); ?>
