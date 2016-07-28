@@ -1,7 +1,9 @@
-	<footer>
-      <p>© 2016 #TeamValor</p>
+</div><!-- end .container -->	
+	<footer class="footer">
+		<div class="container">
+      		<p class="text-muted">© 2016 #TeamValor</p>
+      	</div>
     </footer>
-  </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
