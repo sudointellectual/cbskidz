@@ -3,7 +3,7 @@
       <div class="row profile">
 
         <h1>Hi, <img src="images/avatars/cientifica_32.png" class="avatar" /> The Boss!</h1>
-        <p>Here you can edit some information about yourself, pick an avatar, check your achievments, and other fun stuff! </p>
+        <p>Here you can edit some information about yourself, pick an avatar, check your achievements, and other fun stuff! </p>
 
         <hr>
 
