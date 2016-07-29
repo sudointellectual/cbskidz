@@ -4,7 +4,7 @@
         <div class="col-md-12">
             <h3>PS 187 4th grade</h3>
 
-            <p><a href="/leaderboard.php"><span class="glyphicon glyphicon-stats"></span> Leaderboard</a></p>
+            <p><a href="leaderboard.php"><span class="glyphicon glyphicon-stats"></span> Leaderboard</a></p>
 
             <h4>Bounties</h4>
 
