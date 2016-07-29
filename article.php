@@ -15,7 +15,7 @@
 	  		</a>
 		</button>
 
-		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false"  style="height: 100%;">
+	<div id="articleCarousel" class="carousel slide" data-ride="carousel" data-interval="false"  style="height: 100%;">
 
 		    <?php include('partials/article-content.php'); ?>
 
