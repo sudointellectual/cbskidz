@@ -2,27 +2,19 @@
 /** basics **/
 /** color scheme **/
 /** layout **/
-html, body {
-  height: 100%;
-  margin: 0; padding: 0;  /* to avoid scrollbars */
-}
-
-body {
-  display: flex;
-  min-height: 100%;
-  flex-direction: column;
-}
-
-.container {
-  flex: 1;
-}
-
-
 a {
   font-weight: bold;
 }
 .center {
   text-align: center;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+.carousel-inner > .item > .article-container > * {
+  max-width: 100%;
 }
 .container {
   position: relative;

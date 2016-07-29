@@ -23,12 +23,12 @@ foreach($doc->getElementsByTagName('p') as $paragraph) {
 ?>
  	<!-- Indicators -->
 	  <ol class="carousel-indicators">
-	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#articleCarousel" data-slide-to="0" class="active"></li>
 	    <?php $counter = 0; 
 	    	foreach($paragraphs as $p ){ 
 	    		$counter += 1; 
 	    ?>
-	    <li data-target="#myCarousel" data-slide-to=" <?php echo $counter; ?> "></li>
+	    <li data-target="#articleCarousel" data-slide-to=" <?php echo $counter; ?> "></li>
 	    <?php } ?>
 	  </ol>
 
@@ -78,11 +78,11 @@ foreach($doc->getElementsByTagName('p') as $paragraph) {
 	</div>
 
 		  <!-- Left and right controls -->
-	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="background-image: none;">
+	  <a class="left carousel-control" href="#articleCarousel" role="button" data-slide="prev" style="background-image: none;">
 	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 	    <span class="sr-only">Previous</span>
 	  </a>
-	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="background-image: none;">
+	  <a class="right carousel-control" href="#articleCarousel" role="button" data-slide="next" style="background-image: none;">
 	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 	    <span class="sr-only">Next</span>
 	  </a>
