@@ -4,7 +4,7 @@
 
         <h1>Welcome!</h1>
         <h2>Please log in to continue</h2>
-        <p>Not a member? <a href="register.html">Sign up for free here!</a></p>
+        <p>Not a member? <a href="register.php">Sign up for free here!</a></p>
 
         <hr>
 

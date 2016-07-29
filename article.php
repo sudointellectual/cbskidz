@@ -9,18 +9,17 @@
 		  }
 	  	</style>
   	</head>
-	<button id="back-to-index" type="button" class="btn btn-default" aria-label="Left Align">
-  		<a href="index.php">
-  			<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-  		</a>
-	</button>
+		<button id="back-to-index" type="button" class="btn btn-default" aria-label="Left Align">
+	  		<a href="index.php">
+	  			<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+	  		</a>
+		</button>
 
-	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false"  style="height: 100%;">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false"  style="height: 100%;">
 
-	    <?php include('partials/article-content.php'); ?>
+		    <?php include('partials/article-content.php'); ?>
 
-	</div>
-
+		</div>
+		
 <?php include('partials/footer.php'); ?>
 
-<!-- data-wrap="false" -->
