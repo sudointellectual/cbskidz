@@ -30,7 +30,7 @@ foreach($doc->getElementsByTagName('p') as $paragraph) {
 	  </ol>
 
 	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
+	  <div class="carousel-inner" role="listbox"  style="height: 400px;">
 		<div class = "item active">
 		<h3> <?php echo $headline ?> </h3>
 			<div class = "article-container">
