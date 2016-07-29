@@ -8,7 +8,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php">CBS Kids</a>
+        <a class="navbar-brand" href="/">CBS Kids</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,8 +19,8 @@
           <li><a href="topic.php?topic=science">Science</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="login.php" class="login-link">Login <span class="sr-only">(current)</span></a></li>
-          <li><a href="profile.php" class="profile-link">Profile <span class="sr-only">(current)</span></a></li>
+          <li><a href="/login.php" class="login-link">Login</a></li>
+          <li><a href="/profile.php" class="profile-link">Profile</a></li>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
