@@ -1,7 +1,4 @@
 $(function() {	
-	var teacher = {firstName:"Jess", username:"rcucamonga", password:"rancho"};
-	var student = {firstName:"Elise", username:"snorlax", password:"password123"};
-
 	var selectedAvatar = 'images/avatars/cientifica_32.png';
 
 	$('a.login').on('click', function() {
@@ -15,10 +12,18 @@ $(function() {
 	});
 
 	if($.cookie('loggedIn') == 'true') {
-        $('ul.logged-in').show();
-        $('ul.logged-out').hide();
+		if ($.cookie('userType') == 'student') {
+			$('ul.teacher-logged-in').hide();
+	        $('ul.student-logged-in').show();
+	        $('ul.logged-out').hide();
+	    } else {
+	    	$('ul.teacher-logged-in').show();
+	    	$('ul.student-logged-in').hide();
+	        $('ul.logged-out').hide();
+	    }
     } else {
-        $('ul.logged-in').hide();
+        $('ul.student-logged-in').hide();
+        $('ul.teacher-logged-in').hide();
         $('ul.logged-out').show();
 
         // redirect users to login page if they're not logged in 
@@ -34,6 +39,12 @@ $(function() {
     $('#login-form').submit(function(e) {
     	e.preventDefault();
     	$.cookie('loggedIn', true);
+    	if( $('#username').val() === 'teacher') {
+    		$.cookie('userType', 'teacher');
+    	} else {
+    		$.cookie('userType', 'student');
+    	}
+
     	window.location.href = 'index.php';
     })
 

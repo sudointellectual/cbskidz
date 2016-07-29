@@ -46,7 +46,7 @@ foreach($doc->getElementsByTagName('p') as $paragraph) {
 
 			<div class = "item">
 				<div class = "article-container">
-					<p> <?php echo $p; ?> </p>
+					<p> <?php var_dump($p); ?> </p>
 				</div>
 			</div>
 

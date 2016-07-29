@@ -19,9 +19,15 @@
           <li><a href="#">Politics</a></li>
           <li><a href="#">Science</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right logged-in">
+        <ul class="nav navbar-nav navbar-right student-logged-in">
           <li><a href="profile.php"">Profile</a></li>
           <li><a href="classroom-student.php">Classroom</a></li>
+          <li><a href="achievements.php">Achievments</a></li>
+          <li><a href="leaderboard.php">Leaderboard</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right teacher-logged-in">
+          <li><a href="profile.php"">Profile</a></li>
+          <li><a href="classroom-teacher.php">Classroom</a></li>
           <li><a href="achievements.php">Achievments</a></li>
           <li><a href="leaderboard.php">Leaderboard</a></li>
         </ul>

@@ -5,6 +5,9 @@
 a {
   font-weight: bold;
 }
+.center {
+  text-align: center;
+}
 .container {
   position: relative;
 }
@@ -12,6 +15,10 @@ a {
   display: block;
   margin: 0 auto;
   padding: 10px 0;
+}
+/** classroom pages **/
+.tab-content .btn-default {
+  border: none;
 }
 /** carousel **/
 .carousel-inner .item {
