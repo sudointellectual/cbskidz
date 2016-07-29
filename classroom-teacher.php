@@ -17,43 +17,43 @@
                     <table class="table">
                         <tr>
                             <td><img src="images/avatars/caradebolsa_32.png" width="32" height="32" class="chavo" /></td>
-                            <td><a href="">John Doe</a></td>
+                            <td><a href="/public-profile.php">John Doe</a></td>
                             <td><span class="label label-success">Registered</span></td>
                             <td><a href="mailto:john.doe@email.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Send a personal email</a></td>
                         </tr>
                         <tr>
                             <td><img src="images/avatars/afro_32.png" width="32" height="32" class="chavo" /></td>
-                            <td><a href="">Jane Doe</a></td>
+                            <td><a href="/public-profile.php">Jane Doe</a></td>
                             <td><span class="label label-success">Registered</span></td>
                             <td><a href="mailto:john.doe@email.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Send a personal email</a></td>
                         </tr>
                         <tr>
                             <td><img src="images/avatars/anciano_32.png" width="32" height="32" class="chavo" /></td>
-                            <td><a href="">John Doe</a></td>
+                            <td><a href="/public-profile.php">John Doe</a></td>
                             <td><span class="label label-success">Registered</span></td>
                             <td><a href="mailto:john.doe@email.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Send a personal email</a></td>
                         </tr>
                         <tr>
                             <td><img src="images/avatars/alien_32.png" width="32" height="32" class="chavo" /></td>
-                            <td><a href="">John Doe</a></td>
+                            <td><a href="/public-profile.php">John Doe</a></td>
                             <td><span class="label label-success">Registered</span></td>
                             <td><a href="mailto:john.doe@email.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Send a personal email</a></td>
                         </tr>
                         <tr>
                             <td><img src="images/avatars/astronauta_32.png" width="32" height="32" class="chavo" /></td>
-                            <td><a href="">Jane Doe</a></td>
+                            <td><a href="/public-profile.php">Jane Doe</a></td>
                             <td><span class="label label-success">Registered</span></td>
                             <td><a href="mailto:john.doe@email.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Send a personal email</a></td>
                         </tr>
                         <tr>
                             <td><img src="images/avatars/chavo_32.png" width="32" height="32" class="chavo" /></td>
-                            <td><a href="">Jane Doe</a></td>
+                            <td><a href="/public-profile.php">Jane Doe</a></td>
                             <td><span class="label label-success">Registered</span></td>
                             <td><a href="mailto:john.doe@email.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Send a personal email</a></td>
                         </tr>
                         <tr>
                             <td><img src="http://placekitten.com/g/32/32" alt="" class="img-rounded"></td>
-                            <td><a href="">John Doe</a></td>
+                            <td><a href="/public-profile.php">John Doe</a></td>
                             <td><span class="label label-info">Pending</span></td>
                             <td><a href="mailto:john.doe@email.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Send a reminder</a></td>
                         </tr>
