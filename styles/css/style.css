@@ -25,3 +25,8 @@ figure img {
   margin: 20px 0;
 }
 /** cheat for navigation **/
+
+
+.carousel-inner > .item {
+		padding: 40px;
+}
