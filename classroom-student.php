@@ -2,7 +2,9 @@
 
     <div class="row">
         <div class="col-md-12">
-            <h3>Prof Willow's class</h3>
+            <h3>PS 187 4th grade</h3>
+
+            <p><a href="/leaderboard.php"><span class="glyphicon glyphicon-stats"></span> Leaderboard</a></p>
 
             <h4>Bounties</h4>
 

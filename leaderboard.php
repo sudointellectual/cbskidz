@@ -2,7 +2,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <h3 class="center">PS 187 4th grade</h3>
+        <h3><a href="classroom-student.php"><span class="glyphicon glyphicon-arrow-left"></span></a> PS 187 4th grade</h3>
 
             <div class="row">
                 <div class="col-md-6 col-xs-12 text-center">
