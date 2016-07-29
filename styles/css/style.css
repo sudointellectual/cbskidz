@@ -1,6 +1,11 @@
 /** include color scheme **/
+/** basics **/
 /** color scheme **/
 /** layout **/
+a {
+  color: #00D1FF;
+  font-weight: bold;
+}
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -9,6 +14,46 @@
   display: block;
   margin: 0 auto;
   padding: 10px 0;
+}
+/** form elements **/
+.btn-primary {
+  color: #fff;
+  background-color: #078726;
+  width: 100%;
+  border-color: #c4fcd2;
+  margin: 10px 0;
+}
+/** navbar **/
+.navbar-default {
+  background-color: #c4fcd2;
+  border-color: #078726;
+}
+.navbar-default .navbar-nav {
+  margin: 0 -15px;
+}
+.navbar-default .navbar-brand {
+  color: #078726;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #c4fcd2;
+}
+.navbar-default .navbar-toggle {
+  border-color: #078726;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #078726;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+.navbar-default .navbar-nav > .active > a {
+  background-color: #078726;
+  color: #FFF;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #078726;
 }
 figure img {
   margin: 0 auto;
@@ -19,9 +64,10 @@ figure img {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: #c4fcd2;
 }
 .footer .container .text-muted {
   margin: 20px 0;
+  color: #078726;
 }
 /** cheat for navigation **/

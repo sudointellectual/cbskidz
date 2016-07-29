@@ -1,5 +1,10 @@
 /** layout **/
 
+a {
+	color: @teal;
+	font-weight: bold;
+}
+
 .row {
 	margin-left: 0;
 	margin-right: 0;
@@ -10,6 +15,57 @@
 			margin: 0 auto;
 			padding: 10px 0;
 		}
+	}
+}
+
+/** form elements **/
+
+.btn-primary {
+    color: #fff;
+    background-color: darken((@green), 20%);
+    width: 100%;
+    border-color: lighten((@green), 40%);
+    margin: 10px 0;
+}
+
+/** navbar **/
+
+.navbar-default {
+
+	background-color: lighten((@green), 40%);
+	border-color: darken((@green), 20%);
+
+	.navbar-nav {
+		margin: 0 -15px;
+	}
+
+	.navbar-brand {
+		color: darken((@green), 20%);
+	}
+
+	.navbar-toggle:focus, .navbar-toggle:hover {
+		background-color: lighten((@green), 40%);
+	}
+
+	.navbar-toggle {
+		border-color: darken((@green), 20%);
+
+		.icon-bar {
+			background-color: darken((@green), 20%);
+		}
+	}
+
+	.navbar-nav>li>a {
+		color: @black;
+	}
+
+	.navbar-nav>.active>a {
+		background-color: darken((@green), 20%);
+		color: @white;
+	}
+
+	.navbar-collapse, .navbar-form {
+		border-color: darken((@green), 20%);
 	}
 }
 
@@ -26,9 +82,10 @@ figure {
 	width: 100%;
 	/* Set the fixed height of the footer here */
 	height: 60px;
-	background-color: #f5f5f5;
+	background-color: lighten((@green), 40%);
 
 	.container .text-muted {
 		margin: 20px 0;
+		color: darken((@green), 20%);
 	}
 }

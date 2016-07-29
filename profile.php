@@ -3,7 +3,7 @@
       <div class="row profile">
 
         <h1>Hi, <img src="images/avatars/cientifica_32.png" class="avatar" /> The Boss!</h1>
-        <p>Here you can edit some information about yourself, pick an avatar, check your achievments, and other fun stuff! </p>
+        <div class="well well-sm">Here you can edit some information about yourself, pick an avatar, check your achievments, and other fun stuff!</div>
 
         <hr>
 
@@ -37,7 +37,7 @@
           <ul>
             <li>Professor Willow</li>
               <ul>
-                <li>World History</li>
+                <li><a href="classroom-student.php">World History</a></li>
               </ul>
           </ul>
         </div>
