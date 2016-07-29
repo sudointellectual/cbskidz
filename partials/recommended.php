@@ -12,25 +12,31 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
+				<a href="article.php?article=world-1">
 				<img src="images/articles/world-1.png" alt="" class="img-rounded">
 				<div class="carousel-caption">
 					<h3>Historic Nomination</h3>
 					<p>Hillary Clinton's historic nomination for president by the Democratic Party.</p>
 				</div>
+				</a>
 			</div>
 			<div class="item">
-				<img src="images/articles/world-2.png" alt="" class="img-rounded">
-				<div class="carousel-caption">
-					<h3>Dallas Sheriff Lupe Valdez</h3>
-					<p>Dallas Sheriff Lupe Valdez walks onstage to speak on the final night of the DNC.</p>
-				</div>
+				<a href="article.php?article=world-2">
+					<img src="images/articles/world-2.png" alt="" class="img-rounded">
+					<div class="carousel-caption">
+						<h3>Dallas Sheriff Lupe Valdez</h3>
+						<p>Dallas Sheriff Lupe Valdez walks onstage to speak on the final night of the DNC.</p>
+					</div>
+				</a>
 			</div>
 			<div class="item">
-				<img src="images/articles/world-3.png" alt="" class="img-rounded">
-				<div class="carousel-caption">
-					<h3>Clinton-Kaine</h3>
-					<p>A delegate cheers as New York Governor Andrew Cuomo speaks on the final night of the DNC.</p>
-				</div>
+				<a href="article.php?article=world-3">
+					<img src="images/articles/world-3.png" alt="" class="img-rounded">
+					<div class="carousel-caption">
+						<h3>Clinton-Kaine</h3>
+						<p>A delegate cheers as New York Governor Andrew Cuomo speaks on the final night of the DNC.</p>
+					</div>
+				</a>
 			</div>
 		</div>
 		<!-- Left and right controls -->
