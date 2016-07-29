@@ -53,8 +53,8 @@ foreach($doc->getElementsByTagName('p') as $paragraph) {
 
 		<div class = "item">
 		<div class = "article-container">
-			<h3> YOU DID IT! </h3>
-			<p> how much were you challenged by this article? </p>
+			<div class="alert alert-success" role="alert"> <strong>You Did It!!!</strong> You've been awarded 50 Points. </div>
+			<p>How much were you challenged by this article? </p>
 			<div class="btn-group" role="group" aria-label="..."> 
 				<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">
 					<a href ="index.php">
