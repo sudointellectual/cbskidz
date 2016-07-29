@@ -1,4 +1,7 @@
-$(function() {
+$(function() {	
+	var teacher = {firstName:"Jess", username:"rcucamonga", password:"rancho"};
+	var student = {firstName:"Elise", username:"snorlax", password:"password123"};
+
 	var selectedAvatar = 'images/avatars/cientifica_32.png';
 
 	$('a.login').on('click', function() {
@@ -23,6 +26,9 @@ $(function() {
         	window.location.href = 'login.php';
         }
     }
+
+    // achievement page
+    
 
     // login page
     $('#login-form').submit(function(e) {

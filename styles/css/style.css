@@ -5,6 +5,11 @@
   margin-left: 0;
   margin-right: 0;
 }
+.row .col-md-4 img {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+}
 figure img {
   margin: 0 auto;
   display: block;
