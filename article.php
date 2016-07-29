@@ -7,6 +7,9 @@
 		      width: 70%;
 		      margin: auto;
 		  }
+		  .carousel-inner > .item > .article-container > *{
+		  	max-width: 100%; 
+		  }
 	  	</style>
   	</head>
 		<button id="back-to-index" type="button" class="btn btn-default" aria-label="Left Align">

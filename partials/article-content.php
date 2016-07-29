@@ -16,24 +16,24 @@ $image = "images/articles/".$article_name.".png";
 
 foreach($doc->getElementsByTagName('p') as $paragraph) {
 
-//echo $paragraph->textContent."<br/><br/><br/>"; // for text only
-	array_push($paragraphs, $paragraph->textContent); 
+  //echo $paragraph->textContent."<br/><br/><br/>"; // for text only
+  array_push($paragraphs, $paragraph->textContent); 
 } 
 
 ?>
-<!-- Indicators -->
-<ol class="carousel-indicators">
-	<li data-target="#articleCarousel" data-slide-to="0" class="active"></li>
-	<?php $counter = 0; 
-	foreach($paragraphs as $p ){ 
-		$counter += 1; 
-		?>
-		<li data-target="#articleCarousel" data-slide-to=" <?php echo $counter; ?> "></li>
-		<?php } ?>
-	</ol>
+ 	<!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <?php $counter = 0; 
+	    	foreach($paragraphs as $p ){ 
+	    		$counter += 1; 
+	    ?>
+	    <li data-target="#myCarousel" data-slide-to=" <?php echo $counter; ?> "></li>
+	    <?php } ?>
+	  </ol>
 
-	<!-- Wrapper for slides -->
-	<div class="carousel-inner" role="listbox"  style="height: 400px;">
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox"  style="height: 400px;">
 		<div class = "item active">
 			<h3> <?php echo $headline; ?> </h3>
 			<div class = "article-container">
@@ -41,50 +41,50 @@ foreach($doc->getElementsByTagName('p') as $paragraph) {
 			</div>
 		</div>
 
-		<?php foreach ($paragraphs as $p){
-			?>
+	<?php foreach ($paragraphs as $p){
+	?>
 
-			<div class = "item">
-				<div class = "article-container">
-					<p> <?php echo $p; ?> </p>
-				</div>
+		<div class = "item">
+			<div class = "article-container">
+				<p> <?php echo $p; ?> </p>
 			</div>
+		</div>
 
-			<?php }?>
+	<?php }?>
 
-			<div class = "item">
-				<div class = "article-container">
-					<h3> YOU DID IT! </h3>
-					<p> how much were you challenged by this article? </p>
-					<div class="btn-group" role="group" aria-label="..."> 
-						<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">
-							<a href ="index.php">
-								<span class="glyphicon glyphicon glyphicon-bed" aria-hidden="true"></span>
-								<p style="margin:0;">easy!</p>
-							</a>
-						</button>
-						<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">					<a href ="index.php">
+		<div class = "item">
+		<div class = "article-container">
+			<h3> YOU DID IT! </h3>
+			<p> how much were you challenged by this article? </p>
+			<div class="btn-group" role="group" aria-label="..."> 
+				<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">
+					<a href ="index.php">
+				  		<span class="glyphicon glyphicon glyphicon-bed" aria-hidden="true"></span>
+				  		<p style="margin:0;">easy!</p>
+				  	</a>
+				</button>
+				<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">					<a href ="index.php">
 
-							<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-							<p style="margin:0;"> just right!</p>
-						</a>
-					</button>
-					<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">	<a href ="index.php">
-						<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-						<p style="margin:0;"> hard!</p>
-					</a>
+				  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+  				  <p style="margin:0;"> just right!</p>
+  				  </a>
+				</button>
+				<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">	<a href ="index.php">
+					  <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+	  				  <p style="margin:0;"> hard!</p>
+  				  </a>
 				</button>
 			</div>
 		</div>
 	</div>
-	<!-- Left and right controls -->
-	<a class="left carousel-control" href="#articleCarousel" role="button" data-slide="prev" style="background-image: none;">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="right carousel-control" href="#articleCarousel" role="button" data-slide="next" style="background-image: none;">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div>
+
+		  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="background-image: none;">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="background-image: none;">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
 
