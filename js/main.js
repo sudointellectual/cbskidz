@@ -15,11 +15,11 @@ $(function() {
 	});
 
 	if($.cookie('loggedIn') == 'true') {
-        $('.login-link').hide();
-        $('.profile-link').show();
+        $('ul.logged-in').show();
+        $('ul.logged-out').hide();
     } else {
-        $('.login-link').show();
-        $('.profile-link').hide();
+        $('ul.logged-in').hide();
+        $('ul.logged-out').show();
 
         // redirect users to login page if they're not logged in 
         if (window.location.pathname == '/cbskidz/index.php') {
