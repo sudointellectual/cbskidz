@@ -27,6 +27,20 @@ figure img {
 /** cheat for navigation **/
 
 
-.carousel-inner > .item {
+.carousel-inner .item {
 		padding: 40px;
+}
+
+.carousel-inner .item img {
+		display: block;
+		max-width: 100%;
+		height: auto; 
+}
+
+.carousel-inner .item h3 {
+		text-align: center; 
+}
+
+#back-to-index{
+	margin-bottom: 20px;
 }

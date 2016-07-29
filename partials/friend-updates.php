@@ -12,25 +12,32 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
+				<a href="article.php?article=science-1">
+
 				<img src="images/articles/science-1.png" alt="" class="img-rounded">
 				<div class="carousel-caption">
 					<h3>Rep. Tammy Duckworth</h3>
 					<p>Combat veteran and Illinois Rep. Tammy Duckworth.</p>
 				</div>
+				</a>
 			</div>
 			<div class="item">
-				<img src="images/articles/science-2.png" alt="" class="img-rounded">
-				<div class="carousel-caption">
-					<h3>Carole King</h3>
-					<p>Singer and composer Carole King rehearses before the final day.</p>
-				</div>
+				<a href="article.php?article=science-2">
+					<img src="images/articles/science-2.png" alt="" class="img-rounded">
+					<div class="carousel-caption">
+						<h3>Carole King</h3>
+						<p>Singer and composer Carole King rehearses before the final day.</p>
+					</div>
+				</a>
 			</div>
 			<div class="item">
-				<img src="images/articles/science-3.png" alt="" class="img-rounded">
-				<div class="carousel-caption">
-					<h3>President Barack Obama</h3>
-					<p>President Barack Obama delivers remarks on the third day.</p>
-				</div>
+				<a href="article.php?article=science-3">
+					<img src="images/articles/science-3.png" alt="" class="img-rounded">
+					<div class="carousel-caption">
+						<h3>President Barack Obama</h3>
+						<p>President Barack Obama delivers remarks on the third day.</p>
+					</div>
+				</a>
 			</div>
 		</div>
 		<!-- Left and right controls -->

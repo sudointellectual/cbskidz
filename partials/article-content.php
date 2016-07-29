@@ -1,7 +1,9 @@
 <?php 
 
+$article_name = $_GET['article'];
+
 $doc = new DOMDocument();
-$doc->loadHTMLFile("science-article.html");
+$doc->loadHTMLFile( "articles/".$article_name.".html");
 
 $paragraphs = array(); 
 
@@ -9,7 +11,8 @@ $h3 = $doc->getElementsByTagName('h3');
 
 $headline = $h3->item(0)->textContent; 
 
-$image = "http://placekitten.com/g/250/200"; 
+//$image = "http://placekitten.com/g/250/200"; 
+$image = "images/articles/".$article_name.".png"; 
 
 foreach($doc->getElementsByTagName('p') as $paragraph) {
 
@@ -25,16 +28,16 @@ foreach($doc->getElementsByTagName('p') as $paragraph) {
 	    	foreach($paragraphs as $p ){ 
 	    		$counter += 1; 
 	    ?>
-	    <li data-target="#myCarousel" data-slide-to=" <?php echo $counter ?> "></li>
+	    <li data-target="#myCarousel" data-slide-to=" <?php echo $counter; ?> "></li>
 	    <?php } ?>
 	  </ol>
 
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox"  style="height: 400px;">
 		<div class = "item active">
-		<h3> <?php echo $headline ?> </h3>
+			<h3> <?php echo $headline; ?> </h3>
 			<div class = "article-container">
-				<img src= <?php echo $image ?> />
+				<img src= <?php echo $image; ?> alt="" class="img-rounded"/>
 			</div>
 		</div>
 
@@ -43,19 +46,44 @@ foreach($doc->getElementsByTagName('p') as $paragraph) {
 
 		<div class = "item">
 			<div class = "article-container">
-				<p> <?php echo $p ?> </p>
+				<p> <?php echo $p; ?> </p>
 			</div>
 		</div>
 
 	<?php }?>
+
+		<div class = "item">
+		<div class = "article-container">
+			<h3> YOU DID IT! </h3>
+			<p> how much were you challenged by this article? </p>
+			<div class="btn-group" role="group" aria-label="..."> 
+				<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">
+					<a href ="index.php">
+				  		<span class="glyphicon glyphicon glyphicon-bed" aria-hidden="true"></span>
+				  		<p style="margin:0;">easy!</p>
+				  	</a>
+				</button>
+				<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">					<a href ="index.php">
+
+				  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+  				  <p style="margin:0;"> just right!</p>
+  				  </a>
+				</button>
+				<button type="button" class="btn btn-default" aria-label="Left Align" style="margin:5px;">	<a href ="index.php">
+					  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+	  				  <p style="margin:0;"> hard!</p>
+  				  </a>
+				</button>
+			</div>
+		</div>
 	</div>
 
 		  <!-- Left and right controls -->
-	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="background-image: none;">
 	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 	    <span class="sr-only">Previous</span>
 	  </a>
-	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="background-image: none;">
 	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 	    <span class="sr-only">Next</span>
 	  </a>
