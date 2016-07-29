@@ -1,5 +1,5 @@
 <div class="row">
-	<h3>What Are My Friends Listening To</h3>
+	<h3>What Are My Friends Reading</h3>
 
 	<div id="friendCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
