@@ -7,30 +7,29 @@
 			<li data-target="#friendCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#friendCarousel" data-slide-to="1"></li>
 			<li data-target="#friendCarousel" data-slide-to="2"></li>
-			<li data-target="#friendCarousel" data-slide-to="3"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="http://placekitten.com/g/290/200" alt="" class="img-rounded">
+				<img src="images/articles/science-1.png" alt="" class="img-rounded">
 				<div class="carousel-caption">
-					<h3>Headline 1</h3>
-					<p>This is a headline.</p>
+					<h3>Rep. Tammy Duckworth</h3>
+					<p>Combat veteran and Illinois Rep. Tammy Duckworth.</p>
 				</div>
 			</div>
 			<div class="item">
-				<img src="http://placekitten.com/g/290/200" alt="" class="img-rounded">
+				<img src="images/articles/science-2.png" alt="" class="img-rounded">
 				<div class="carousel-caption">
-					<h3>Headline 2</h3>
-					<p>This is a headline.</p>
+					<h3>Carole King</h3>
+					<p>Singer and composer Carole King rehearses before the final day.</p>
 				</div>
 			</div>
 			<div class="item">
-				<img src="http://placekitten.com/g/290/200" alt="" class="img-rounded">
+				<img src="images/articles/science-3.png" alt="" class="img-rounded">
 				<div class="carousel-caption">
-					<h3>Headline 3</h3>
-					<p>This is a headline.</p>
+					<h3>President Barack Obama</h3>
+					<p>President Barack Obama delivers remarks on the third day.</p>
 				</div>
 			</div>
 		</div>

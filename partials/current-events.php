@@ -7,30 +7,29 @@
 			<li data-target="#currentCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#currentCarousel" data-slide-to="1"></li>
 			<li data-target="#currentCarousel" data-slide-to="2"></li>
-			<li data-target="#currentCarousel" data-slide-to="3"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="http://placekitten.com/g/290/200" alt="" class="img-rounded">
+				<img src="images/articles/politics-1.png" alt="" class="img-rounded">
 				<div class="carousel-caption">
-					<h3>Headline 1</h3>
-					<p>This is a headline.</p>
+					<h3>Jensen Walcott - Equal pay</h3>
+					<p>Jensen Walcott (R), who was fired from her job for asking equal pay.</p>
 				</div>
 			</div>
 			<div class="item">
-				<img src="http://placekitten.com/g/290/200" alt="" class="img-rounded">
+				<img src="images/articles/politics-2.png" alt="" class="img-rounded">
 				<div class="carousel-caption">
-					<h3>Headline 2</h3>
-					<p>This is a headline.</p>
+					<h3>Ted Danson, Mary Steenburgen</h3>
+					<p>New York Governor Andrew Cuomo takes the stage.</p>
 				</div>
 			</div>
 			<div class="item">
-				<img src="http://placekitten.com/g/290/200" alt="" class="img-rounded">
+				<img src="images/articles/politics-3.png" alt="" class="img-rounded">
 				<div class="carousel-caption">
-					<h3>Headline 3</h3>
-					<p>This is a headline.</p>
+					<h3>New York Gov. Andrew Cuomo</h3>
+					<p>Actors Ted Danson and Mary Steenburgen take the stage to speak.</p>
 				</div>
 			</div>
 		</div>

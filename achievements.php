@@ -7,13 +7,13 @@
         <h2>Slaying the game!</h2>
 
         <div class="col-md-4">
-          <img src="images/medals/bronze-medal.png" class="avatar" /> 
+          <img src="images/aritcles/world-1.png class="avatar" /> 
         </div>
         <div class="col-md-4">
-          <img src="images/medals/silver-medal.png" class="avatar" /> 
+          <img src="images/aritcles/world-2.png" class="avatar" /> 
         </div>
         <div class="col-md-4">
-          <img src="images/medals/gold-medal.png" class="avatar" /> 
+          <img src="images/aritcles/world-3.png" class="avatar" /> 
         </div>
       <!-- end row -->
       </div>
