@@ -42,6 +42,8 @@
           </ul>
         </div>
 
+      <a class="btn btn-primary logout">Logout</a>
+
       <!-- end row -->
       </div>
 

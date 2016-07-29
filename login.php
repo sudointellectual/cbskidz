@@ -8,18 +8,18 @@
 
         <hr>
 
-        <form>
+        <form id="login-form">
           <div class="input-group">
             <span class="input-group-addon" id="sizing-addon1">👥</span>
-            <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+            <input id="username" type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1" required>
           </div>
 
           <div class="input-group">
             <span class="input-group-addon" id="sizing-addon1">🔑</span>
-            <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon1">
+            <input id="password" type="password" class="form-control" placeholder="Password" aria-describedby="sizing-addon1" required>
           </div>
 
-          <a type="submit" class="btn btn-primary login" href="index.php">Login</a>
+          <input type="submit" class="btn btn-primary login" id="submit" />
         </form>
 
       <!-- end row -->
